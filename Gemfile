@@ -7,11 +7,9 @@
 
     gem 'sass-rails',   '5.0.2'
     gem 'uglifier',     '2.5.3'
-<<<<<<< HEAD
+
      gem 'bcrypt',   '3.1.7'
-=======
-     gem 'bcrypt', '3.1.7'
->>>>>>> sign-up
+
     gem 'coffee-rails', '4.1.0'
     gem 'jquery-rails', '4.0.3'
     gem 'turbolinks',   '2.3.0'
@@ -29,4 +27,5 @@
     group :production do
       gem 'pg',             '0.17.1'
       gem 'rails_12factor', '0.0.2'
+      gem 'puma',           '2.11.1' 
     end
